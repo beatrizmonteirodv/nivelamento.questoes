@@ -1,0 +1,142 @@
+#salario_bruto = 5600
+#descontos = 0.85
+#salario_liquido= salario_bruto * descontos
+
+#print (f"Seu salario bruto eh {salario_bruto}")
+#print (f"Seu salario_liquido eh {salario_liquido:.2f}")
+
+#numero = int (input ("insira um numero\n"))
+#carinha = ":) "
+#carinhas = carinha * numero 
+
+#print (carinhas)
+
+#numero2 = int (input ("insira um numero\n"))
+#carinha_sad = ":( "
+#carinhas_sad = carinha_sad * numero2
+#print (f"{carinhas_sad}\n{carinhas_sad}\n{carinhas_sad}" )
+
+
+#hi = input ("Oi: ")
+#oi = " /\\_/\\"
+#ola="( o.o )"
+#hello= " > ^ <"
+
+#print (f"{oi}\n{ola}\n{ hello}\n")
+
+#exponenciaçao (**)
+#modulo da divisao (%)
+#divisao inteira (//)
+
+#numero = int (input ("insira um numero inteiro: \n"))
+#um = numero * 1
+#dois= numero * 2 
+#tres= numero * 3
+#quatro = numero * 4
+#cinco= numero * 5
+#seis = numero * 6
+#sete = numero * 7 
+#oito = numero * 8
+#nove = numero * 9 
+#dez = numero * 10 
+
+#print (f"Sua tabuada eh:\n{um}\n{dois}\n{tres}\n{quatro}\n{cinco}\n{seis}\n{sete}\n{oito}\n{nove}\n{dez}")
+
+#bonjour = input ("Bonjour.: ")
+
+#oi = "(\_/)"
+#hola = "(•_•)" 
+#hi = "/   \\"
+
+#print (f"{oi}\n{hola}\n{hi}")
+
+#!= - diferente de
+
+#elif = verificar mais de uma condiçao
+
+#numero1 = float (input("Insira um numero:\n"))
+#numero2 = float (input("Insira um segundo numero:\n"))
+
+#if numero1 > numero2:
+    #print (f"O numero {numero1:} eh maior que o numero {numero2:} e o cubo do maior valor eh: {numero1**3}")
+#elif numero1 < numero2:
+    #print (f"O numero {numero1:} eh menor que o numero{numero2:} e o cubo do maior valor eh: {numero2**3}")
+#else: 
+    #print ("Eles sao iguais")
+
+#numero = float (input ("Insira um numero: "))
+#if numero <= 100:
+    #print (f"O numero {numero} esta entre 0 ou 100.")
+#else: 
+    #print (f"O numero {numero} nao esta entre 0 e 100.")
+
+#numero = float (input ("insira um numero\n"))
+#if numero%2 == 0:
+    #print (f"O numero {numero} eh par ")
+#else:
+    #print (f"O numero {numero} nao eh par")
+
+#numero = float (input ("insira um numero"))
+
+#if numero > 0:
+    #print (f"Esse numero {numero} eh positivo")
+#elif numero == 0:
+    #print (f"Esse numero {numero} eh igual a zero")
+#else: 
+    #print (f"Esse numero {numero} eh negativo")
+
+#ano= int (input("insira o ano atual"))
+#nasc = int (input("insira o seu ano de nascimento"))
+
+#if nasc >= 2007:
+    #print (f"Voce tem idade pra tirar CNH")
+#else: 
+    #print (f"Voce nao tem idade pra tirar a CNH")
+
+#abates = int (input("insira o seu numero de abates:\n"))
+#ortes = int (input("insira o seu numero de mortes:\n"))
+#assistencias = int (input("insira o seu numero de assistencias:\n"))
+
+#saldo = (abates + assistencias)-mortes
+
+#if saldo > 0:
+    #print ("Seu saldo eh positivo")
+#elif saldo == 0:
+    #print ("Seu saldo eh neutro")
+#else:  
+    #print ("Seu saldo eh negativo")
+
+#nota1 = int (input("Insira sua primeira nota\n"))
+#nota2 = int (input("Insira sua segunda nota\n"))
+#nota3 = int (input("Insira sua terceira nota\n"))
+
+#notaf = (nota1 + nota2 + nota3) /3
+
+#if notaf < 5:
+    #print("Insuficiente")
+#elif notaf >= 5  and notaf < 6.9:
+    #print ("Regular")
+#elif notaf >= 7 and notaf < 8.9:
+    #print ("Bom")
+#elif notaf >= 9:
+    #print ("Excelente")
+
+#idade = int (input ("Qual a sua idade\n"))
+
+#if idade > 0 and idade <= 11:
+    #print ("Criança")
+#elif idade >= 12 and idade < 18:
+    #print ("Adolescente")
+#elif idade >= 18 and idade < 60:
+    #print ("Adulta")
+#elif idade >= 60:
+    #print ("Idosa")
+
+#altura = float (input("Qual sua altura?\n"))
+
+#if altura < 1.2:
+    #print ("Nao permitido a entrada.")
+#elif altura >= 1.2 and altura <= 1.5:
+    #print ("Permitida a entrada com acompanhamento do responsavel")
+#elif altura > 1.5:
+    #print ("Permitida a entrada sozinha")
