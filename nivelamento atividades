@@ -140,3 +140,75 @@
     #print ("Permitida a entrada com acompanhamento do responsavel")
 #elif altura > 1.5:
     #print ("Permitida a entrada sozinha")
+
+#peso = int (input ("Qual seu peso?:\n"))
+#altura = float (input ("Qual sua altura?:\n"))
+
+#altura2 = altura * altura
+#imc = peso / altura2
+
+#print (f"Seu imc eh: {imc:.2f}")
+
+#if imc < 18.5:
+   #print ("vc eh abaixo do peso")
+#elif imc >= 18.5 and imc < 25:
+    #print ("vc eh saudavel")
+#elif imc >= 25 and imc <= 30:
+    #print ("vc tem sobrepeso")
+#else: 
+   #print ("vc tem obesidade")
+
+#numero1 = int (input("Insira um primeiro numero:\n"))
+#numero2 = int (input("Insira um segundo numero:\n"))
+#numero3 = int (input("Insira um terceiro numero:\n"))
+
+#soma = numero1 + numero2 + numero3
+#minimo = min(numero1, numero2, numero3)
+
+#print (f"Os dois maiores numeros somados da: {soma - minimo}")
+
+#numero1 = int (input("Insira um primeiro numero:\n"))
+#numero2 = int (input("Insira um segundo numero:\n"))
+#numero3 = int (input("Insira um terceiro numero:\n"))
+
+#equilatero = numero1 == numero2 and numero2 == numero3
+#isosceles = numero1 == numero2 or numero1 == numero3 or numero3 == numero2 
+#escaleno = numero1 != numero2 and numero2 != numero3 and numero3 != numero1
+
+#if (numero1 + numero2) > numero3 and (numero2 + numero3) > numero1 and (numero3 + numero1) > numero2 and equilatero:
+    #print ("Seu numero eh um triangulo e eh equilatero")
+#elif (numero1 + numero2) > numero3 and (numero2 + numero3) > numero1 and (numero3 + numero1) > numero2 and isosceles: 
+    #print ("Seu numero eh um triangulo e eh isosceles")
+#elif (numero1 + numero2) > numero3 and (numero2 + numero3) > numero1 and (numero3 + numero1) > numero2 and escaleno:
+    #print ("Seu numero eh triangulo e eh escaleno")
+#else:
+    #print ("Seu numero nao eh um triangulo")
+
+doze = (input ("Insira um numero de 1 a 12: "))
+
+if doze == "1" : 
+    print ("janeiro")
+elif doze == "2" : 
+    print ("fevereiro")
+elif doze == "3" : 
+    print ("marco")
+elif doze == "4" : 
+    print ("maio")
+elif doze == "5" : 
+    print ("abril")
+elif doze == "6" : 
+    print ("junho") 
+elif doze == "7" : 
+    print ("julho")
+elif doze == "8" : 
+    print ("agosto")
+elif doze == "9" : 
+    print ("setembro")
+elif doze == "10" : 
+    print ("outubro")
+elif doze == "11" :
+    print ("novembro") 
+elif doze == "12" :
+    print ("dezembro")
+else:
+    print("invalido")
