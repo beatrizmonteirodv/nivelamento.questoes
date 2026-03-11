@@ -212,3 +212,109 @@ elif doze == "12" :
     print ("dezembro")
 else:
     print("invalido")
+#peso = int (input ("Qual seu peso?:\n"))
+#altura = float (input ("Qual sua altura?:\n"))
+
+#altura2 = altura * altura
+#imc = peso / altura2
+
+#print (f"Seu imc eh: {imc:.2f}")
+
+#if imc < 18.5:
+   #print ("vc eh abaixo do peso")
+#elif imc >= 18.5 and imc < 25:
+    #print ("vc eh saudavel")
+#elif imc >= 25 and imc <= 30:
+    #print ("vc tem sobrepeso")
+#else: 
+   #print ("vc tem obesidade")
+
+#numero1 = int (input("Insira um primeiro numero:\n"))
+#numero2 = int (input("Insira um segundo numero:\n"))
+#numero3 = int (input("Insira um terceiro numero:\n"))
+
+#soma = numero1 + numero2 + numero3
+#minimo = min(numero1, numero2, numero3)
+
+#print (f"Os dois maiores numeros somados da: {soma - minimo}")
+
+#numero1 = int (input("Insira um primeiro numero:\n"))
+#numero2 = int (input("Insira um segundo numero:\n"))
+#numero3 = int (input("Insira um terceiro numero:\n"))
+
+#equilatero = numero1 == numero2 and numero2 == numero3
+#isosceles = numero1 == numero2 or numero1 == numero3 or numero3 == numero2 
+#escaleno = numero1 != numero2 and numero2 != numero3 and numero3 != numero1
+
+#if (numero1 + numero2) > numero3 and (numero2 + numero3) > numero1 and (numero3 + numero1) > numero2 and equilatero:
+    #print ("Seu numero eh um triangulo e eh equilatero")
+#elif (numero1 + numero2) > numero3 and (numero2 + numero3) > numero1 and (numero3 + numero1) > numero2 and isosceles: 
+    #print ("Seu numero eh um triangulo e eh isosceles")
+#elif (numero1 + numero2) > numero3 and (numero2 + numero3) > numero1 and (numero3 + numero1) > numero2 and escaleno:
+    #print ("Seu numero eh triangulo e eh escaleno")
+#else:
+    #print ("Seu numero nao eh um triangulo")
+
+#doze = (input ("Insira um numero de 1 a 12: "))
+
+
+#for i in "oitudobem":
+    #print (i)
+
+#QUESTAO 1 
+
+#numero = int (input ("Digite um numero da tabuada \n "))
+#for i in range (1, 11):
+    #resultado = numero * i
+    #print (f"{numero} * {i} = {resultado}\n")
+
+#QUESTAO 2 
+
+#numero = int (input("Insira um numero"))
+#while numero >= 0:
+    #print (numero)
+    #numero -= 1 
+
+    #print ("KABUM!!!!!")
+
+#numero = int (input ("Insira um numero"))
+#while numero >= 0:
+    #print (numero)
+    #numero -= 1 
+
+    #print ("KABUM")
+
+#numero = int (input ("Insira um numero"))
+#for i in range (numero, -1, -1):
+    #print (i)
+#print ("KABUM")
+
+#QUESTAO 3 
+
+#numero = int (input ("Insira um numero\n"))
+#resultado = 1
+
+#for i in range (numero, 0, -1):
+    #resultado = resultado * i 
+
+#print (resultado)
+
+#QUESTAO 7 
+#frase = input("Insira uma frase")
+#numero = int (input ("Insira um numero"))
+
+#print ("sua frase foi atacada pelo virus do MUEHEHE")
+#for i in range (numero):
+    #print ("MUEHEHEHEHEHEHEHE")
+
+#QUESTAO 19 (aberracao)
+
+#numero = int (input ("Digite um numero\n"))
+#primeiro = 0 
+#segundo = 1
+
+#for i in (numero):
+    #print (primeiro)
+    #proximo = primeiro + segundo
+    #primeiro = segundo 
+    #segundo = proximo 
