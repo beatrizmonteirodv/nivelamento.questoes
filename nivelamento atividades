@@ -418,3 +418,22 @@ while state:
     elif num == 0:
         for i in lista:
             media = num + num / state
+#questao 3 dada uma lista e um numero especifico, conte quantas vezes esse numero aparece na lista. 
+# lista = []
+# state = True
+# repeticao = 0
+# cont = 0
+# while state: 
+#     num = int (input ("Insira 1 para adicionar um numero e 0 para mostrar quantas vezes esse numero se repete\n"))
+#     if num == 1:
+#         num2= int (input ("Adicione um numero\n"))
+#         add = lista.append(num2)
+#         print (lista)
+#     elif num == 0:
+#         for i in lista:
+#             repeticao = i 
+#             if repeticao == i:
+#                 cont = cont + 1 
+#         state = False
+# print(f"O seu numero aparece {cont} vezes")
+# print (lista)
