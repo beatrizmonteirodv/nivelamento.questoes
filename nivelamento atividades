@@ -318,3 +318,103 @@ else:
     #proximo = primeiro + segundo
     #primeiro = segundo 
     #segundo = proximo 
+#lista = [1,2,3,4,5]
+
+#add2 = int (input) ("Digite o numero 0 para adicionar um numero e digite o numero 1 se quiser remover um numero")
+
+#seila = True
+
+#while seila:
+    #if add2 == 0:
+        #add = int (input ("Insira um numero\n"))
+        #lista.append (add)
+    #elif add2 == 1:
+        #add = int (input("Insira um numero pre existente pra remover"))
+        #lista.remove (add)
+#print (add)
+
+#lista = [1,2,3,4,5]
+#state = True
+#while state:
+        #print (lista)
+        #func = input ("Pressione 0 para adicionar um numero e 1 para remover")
+        #if func == "0":
+            #num = int (input ("Insira o numero"))
+            #lista.append(num)  
+        #elif func == "1":
+              #num = int (input("Insira um numero"))
+              #lista.remove(num)
+        #else:
+            #print (lista)
+            #state = false
+#questao1 escreva um programa que recebe uma lista de numeros e retorne a soma de todos os elementos. sem usar funçoes prontas do python!
+
+# lista = []
+# state = True
+# soma = 0 
+
+# while state:
+    
+#     num = int (input("Insira 1 se voce quer adicionar um numero e 0 se voce quer somar\n"))
+#     if num == 1:
+#         print (lista)
+#         func = int (input ("Insira o numero que voce deseja adicionar\n"))
+#         lista.append(func)
+#     elif num == 0:
+#         for i in (lista):
+#             soma += i 
+    #+= soma com o anterior
+        #print (f"A soma dos seus numeros eh igual a: {soma}")
+    #else:
+        #print("Resposta invalida")
+        
+
+    #for i in (lista):
+        #soma += i 
+    #+= soma com o anterior
+#print (f"A soma dos seus numeros eh igual a:\n {soma}")
+
+#QUESTAO 2 DADA UMA LISTA DE NUMEROS, ENCONTRE O MAIOR E O MENOr VALOR PRESENTE NA LISTA. SEM USAR FUNCOES PRONTAS DO PYTHON!
+
+# lista = []
+# for i in range (lista)
+# state = True 
+# maior = 0
+# menor = 0 
+# iguais = 0 
+# while state:
+#     num = int (input ("Insira 1 se voce quer adicionar um numero e 0 se voce quer saber qual o maior"))
+#     if num == 1:
+#         print (lista)
+#         func = int (input("Insira o numero que voce deseja adicionar\n"))
+#         lista.append(func)
+#     elif num == 0: 
+#         for i in (lista): 
+# em todos = ctrl + /
+
+# lista = [3,6,9]
+# maior_numero = lista[0]
+# menor_numero = lista[0]
+# for i in lista:
+#     if i > maior_numero:
+#             maior_numero = i
+#     elif i < menor_numero:
+#             menor_numero = i
+    
+# print (f"O menor numero eh: {menor_numero}")
+# print (f"O maior numero eh: {maior_numero}")
+
+#questao 3 dada uma lista e um numero especifico, conte quantas vezes esse numero aparece na lista. 
+lista = []
+state = True
+repeticao = 0 
+media = 0
+div = 0
+while state: 
+    num = int (input ("Insira 1 para adicionar um numero e 0 para mostrar quantas vezes esse numero se repete"))
+    if num == 1:
+        print (lista)
+        add = lista.append(num)
+    elif num == 0:
+        for i in lista:
+            media = num + num / state
