@@ -482,3 +482,10 @@ while state:
 #     list.append (num1)
 
 # lista (list)
+#QUESTAO 5
+# lista = [1,2,3]
+# def list (lista, a):
+#     list2 = []
+#     for i in lista:
+#         mult = i * a
+#         list2.append (mult)
