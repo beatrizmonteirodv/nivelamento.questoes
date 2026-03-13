@@ -437,3 +437,48 @@ while state:
 #         state = False
 # print(f"O seu numero aparece {cont} vezes")
 # print (lista)
+# def saudar ():
+   
+#     return print ("Ola Mundo")
+
+# saudar ()
+
+#questao 2
+
+# a = int (input ("Insira um numero"))
+# b = int (input ("Insira um segundo numero"))
+# def somar (a,b):
+#     soma = a + b
+#     print (soma) 
+
+# somar (a,b)
+
+#questao 3 
+
+# def numero (a):
+#     par = a%2 == 0
+#     if par == True:
+#         print ("Seu numero eh par")
+#     else:
+#         print ("Seu numero eh impar")
+#     return par 
+
+# num = int (input ("Insira um numero"))
+# numero (num)
+
+# QUESTAO 4
+# def lista (list):
+#     cont = 0 
+#     for i in list:
+#         par = i%2 == 0 
+#         if par == True: 
+#             cont += i  
+#     print (cont)
+
+# list = []     
+# ind= int (input ("Insira o tamanho da lista"))
+# for i in range (ind):
+#     num1 = int (input ("Insira o elemento"))
+#     list.append (num1)
+
+# lista (list)
